@@ -1,9 +1,4 @@
 <?php
-/**
- * Plugin Name: Portafolio API
- * Description: Carga el JavaScript que consume la API de JSON Server (habilidades, intereses y proyectos).
- * Version: 1.1.0
- */
 
 if (!defined('ABSPATH')) {
     exit;

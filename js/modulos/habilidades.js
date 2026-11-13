@@ -1,5 +1,3 @@
-// Responsable: Franklin — Habilidades y tecnologías
-// Ver docs/TAREAS.md, sección de Franklin.
 (function () {
   'use strict';
   var P = window.Portafolio;
@@ -7,7 +5,6 @@
   function tarjetaHabilidad(h) {
     var tarjeta = P.crear('article', 'tarjeta');
     tarjeta.appendChild(P.crear('h3', 'tarjeta-titulo', h.nombre));
-    // TODO Franklin: mostrar "categoria" y "nivel" como etiquetas (clase "etiqueta").
     return tarjeta;
   }
 
