@@ -1,0 +1,17 @@
+{
+  "habilidades": [
+    { "id": 1, "nombre": "Java", "nivel": "Intermedio", "categoria": "Lenguaje" }
+  ],
+  "intereses": [
+    { "id": 1, "nombre": "Desarrollo web", "descripcion": "Crear aplicaciones y sitios web." }
+  ],
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "Sistema de matrícula",
+      "descripcion": "Aplicación académica desarrollada en un curso.",
+      "tecnologias": ["Java", "PostgreSQL"],
+      "estado": "Finalizado"
+    }
+  ]
+}

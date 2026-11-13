@@ -1,0 +1,17 @@
+meta {
+  name: GET recurso inexistente (404)
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/habilidades/999
+  body: none
+  auth: none
+}
+
+tests {
+  test("Responde 404 cuando el recurso no existe", function() {
+    expect(res.getStatus()).to.equal(404);
+  });
+}
