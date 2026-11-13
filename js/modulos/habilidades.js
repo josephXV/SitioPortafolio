@@ -1,5 +1,5 @@
-// Responsable: Persona 1 — Habilidades y tecnologías
-// Ver docs/TAREAS.md, sección "Persona 1".
+// Responsable: Franklin — Habilidades y tecnologías
+// Ver docs/TAREAS.md, sección de Franklin.
 (function () {
   'use strict';
   var P = window.Portafolio;
@@ -7,7 +7,7 @@
   function tarjetaHabilidad(h) {
     var tarjeta = P.crear('article', 'tarjeta');
     tarjeta.appendChild(P.crear('h3', 'tarjeta-titulo', h.nombre));
-    // TODO Persona 1: mostrar "categoria" y "nivel" como etiquetas (clase "etiqueta").
+    // TODO Franklin: mostrar "categoria" y "nivel" como etiquetas (clase "etiqueta").
     return tarjeta;
   }
 

@@ -3,9 +3,9 @@
 | Parte | Responsable | Archivos que puede tocar |
 |---|---|---|
 | Base de la integración | Joseph | `js/portafolio-api.js`, `js/portafolio-api.css`, `wordpress/mu-plugins/`, `api/package.json`, `docs/GUIA-JSON-SERVER.md`, `README.md` |
-| Habilidades y tecnologías | Persona 1: __________ | `js/modulos/habilidades.js`, `js/modulos/habilidades.css`, bloque `"habilidades"` de `api/db.json`, `bruno/.../01-*` y `02-*` |
-| Intereses personales | Persona 2: __________ | `js/modulos/intereses.js`, `js/modulos/intereses.css`, bloque `"intereses"` de `api/db.json`, `bruno/.../03-*` y `04-*` |
-| Proyectos académicos | Persona 3: __________ | `js/modulos/proyectos.js`, `js/modulos/proyectos.css`, bloque `"proyectos"` de `api/db.json`, `bruno/.../05-*` y `06-*` |
+| Habilidades y tecnologías | Franklin Josué Castillo Umaña | `js/modulos/habilidades.js`, `js/modulos/habilidades.css`, bloque `"habilidades"` de `api/db.json`, `bruno/.../01-*` y `02-*` |
+| Intereses personales | Emesis Mayerli Mairena Sevilla | `js/modulos/intereses.js`, `js/modulos/intereses.css`, bloque `"intereses"` de `api/db.json`, `bruno/.../03-*` y `04-*` |
+| Proyectos académicos | Jairo Steven Herrera Romero | `js/modulos/proyectos.js`, `js/modulos/proyectos.css`, bloque `"proyectos"` de `api/db.json`, `bruno/.../05-*` y `06-*` |
 
 ## Lo que ya está hecho (base)
 - **JSON Server**: `api/package.json` con `npm start` (puerto 3000, CORS activo). `db.json` tiene **un solo registro de ejemplo** por colección.
@@ -47,7 +47,7 @@ Para el contenido que viene de la API usen **siempre** `P.crear` o `textContent`
 
 ---
 
-## Persona 1 — Habilidades y tecnologías
+## Franklin Josué Castillo Umaña — Habilidades y tecnologías
 **Datos (`db.json` → `"habilidades"`)**
 - [ ] Mínimo **8** habilidades con `id`, `nombre`, `nivel`, `categoria`.
 - [ ] `nivel` solo puede ser `Básico`, `Intermedio` o `Avanzado`.
@@ -74,7 +74,7 @@ Para el contenido que viene de la API usen **siempre** `P.crear` o `textContent`
 
 ---
 
-## Persona 2 — Intereses personales
+## Emesis Mayerli Mairena Sevilla — Intereses personales
 **Datos (`db.json` → `"intereses"`)**
 - [ ] Mínimo **5** intereses con `id`, `nombre`, `descripcion`. Mezclar académicos y pasatiempos.
 - [ ] Revisar la redacción y la ortografía (se evalúa la calidad del contenido).
@@ -99,7 +99,7 @@ Para el contenido que viene de la API usen **siempre** `P.crear` o `textContent`
 
 ---
 
-## Persona 3 — Proyectos académicos
+## Jairo Steven Herrera Romero — Proyectos académicos
 **Datos (`db.json` → `"proyectos"`)**
 - [ ] Mínimo **4** proyectos con `id`, `nombre`, `descripcion`, `tecnologias` (arreglo) y `estado`.
 - [ ] `estado` solo puede ser `Finalizado` o `En desarrollo`, y debe haber al menos uno de cada uno.

@@ -1,5 +1,5 @@
-// Responsable: Persona 3 — Proyectos académicos
-// Ver docs/TAREAS.md, sección "Persona 3".
+// Responsable: Jairo — Proyectos académicos
+// Ver docs/TAREAS.md, sección de Jairo.
 (function () {
   'use strict';
   var P = window.Portafolio;
@@ -7,11 +7,11 @@
   function tarjetaProyecto(p) {
     var tarjeta = P.crear('article', 'tarjeta');
     tarjeta.appendChild(P.crear('h3', 'tarjeta-titulo', p.nombre));
-    // TODO Persona 3: mostrar "estado", "descripcion" y cada elemento de "tecnologias" como etiqueta.
+    // TODO Jairo: mostrar "estado", "descripcion" y cada elemento de "tecnologias" como etiqueta.
     return tarjeta;
   }
 
-  // TODO Persona 3: crear los botones de filtro por estado (Todos / Finalizados / En desarrollo).
+  // TODO Jairo: crear los botones de filtro por estado (Todos / Finalizados / En desarrollo).
   // Recibe la lista y la función ejecutar(recurso), por ejemplo: ejecutar('/proyectos?estado=Finalizado').
   function filtrosProyectos(lista, ejecutar) {
   }
