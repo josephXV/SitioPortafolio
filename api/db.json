@@ -1,7 +1,16 @@
 {
-  "habilidades": [
-    { "id": 1, "nombre": "Java", "nivel": "Intermedio", "categoria": "Lenguaje" }
-  ],
+  
+ "habilidades": [
+  { "id": 1, "nombre": "Java", "nivel": "Intermedio", "categoria": "Lenguaje" },
+  { "id": 2, "nombre": "JavaScript", "nivel": "Básico", "categoria": "Lenguaje" },
+  { "id": 3, "nombre": "PHP", "nivel": "Básico", "categoria": "Lenguaje" },
+  { "id": 4, "nombre": "PostgreSQL", "nivel": "Intermedio", "categoria": "Base de datos" },
+  { "id": 5, "nombre": "MySQL", "nivel": "Básico", "categoria": "Base de datos" },
+  { "id": 6, "nombre": "Laravel", "nivel": "Básico", "categoria": "Framework" },
+  { "id": 7, "nombre": "Git", "nivel": "Básico", "categoria": "Herramienta" },
+  { "id": 8, "nombre": "WordPress", "nivel": "Intermedio", "categoria": "CMS" }
+],
+
   "intereses": [
     { "id": 1, "nombre": "Desarrollo web", "descripcion": "Crear aplicaciones y sitios web." }
   ],
