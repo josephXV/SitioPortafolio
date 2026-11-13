@@ -1,4 +1,4 @@
-# Portafolio de Valeria Solís (ITI-621, Actividad 1)
+# Portafolio de Ana Lucía (ITI-621, Actividad 1)
 
 Sitio WordPress (LocalWP) que consume una API de JSON Server.
 
