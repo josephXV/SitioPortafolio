@@ -1,0 +1,15 @@
+/* Cada regla aplica un color según el nivel que devuelve la API. */
+.etiqueta-nivel[data-nivel="Básico"] {
+  background-color: #dbeafe;
+  color: #1e3a8a;
+}
+
+.etiqueta-nivel[data-nivel="Intermedio"] {
+  background-color: #dcfce7;
+  color: #14532d;
+}
+
+.etiqueta-nivel[data-nivel="Avanzado"] {
+  background-color: #f3e8ff;
+  color: #581c87;
+}

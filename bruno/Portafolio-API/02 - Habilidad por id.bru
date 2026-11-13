@@ -1,0 +1,26 @@
+meta {
+  name: Habilidad por id
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/habilidades/1
+  body: none
+  auth: none
+}
+
+tests {
+  // El /1 al final de la URL pide la habilidad con ese ID.
+  test("Responde 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+
+  test("Devuelve la habilidad con ID 1", function () {
+    // El cuerpo contiene el registro que devolvió la API.
+    const habilidad = res.getBody();
+
+    // Convertimos el ID a texto para aceptar 1 y "1".
+    expect(String(habilidad.id)).to.equal("1");
+  });
+}
