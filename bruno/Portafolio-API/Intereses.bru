@@ -1,0 +1,41 @@
+meta {
+  name: Intereses
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{baseUrl}}/intereses
+  body: none
+  auth: inherit
+}
+
+tests {
+  // Verifica que la API responda correctamente.
+    test("La respuesta tiene estado 200", function () {
+      expect(res.getStatus()).to.equal(200);
+    });
+  
+    // Comprueba que la API devuelva una lista.
+    test("La respuesta es un arreglo", function () {
+      expect(res.getBody()).to.be.an('array');
+    });
+  
+    // Verifica los campos obligatorios de cada interés.
+    test("Todos los intereses tienen nombre y descripcion", function () {
+      const intereses = res.getBody();
+  
+      intereses.forEach(function (interes) {
+        expect(interes).to.have.property('nombre');
+        expect(interes).to.have.property('descripcion');
+      });
+    });
+  
+  
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+  forwardAuthorizationHeader: false
+}
