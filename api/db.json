@@ -12,8 +12,39 @@
 ],
 
   "intereses": [
-    { "id": 1, "nombre": "Desarrollo web", "descripcion": "Crear aplicaciones y sitios web." }
+    { 
+      "id": 1,
+       "nombre": "Desarrollo de aplicaciones web", 
+       "descripcion": "Transformar ideas en aplicaciones web funcionales que simplifiquen actividades y mejoren la experiencia de los usuarios."
+      },
+    {
+      "id": 2,
+      "nombre": "Diseño y gestión de bases de datos",
+      "descripcion": "Explorar formas de estructurar y administrar información para construir sistemas organizados, eficientes y confiables."
+    },
+    {
+      "id": 3,
+      "nombre": "Desarrollo de software",
+      "descripcion": "Diseñar soluciones de software que permitan automatizar tareas, optimizar procesos y resolver problemas reales."
+    },
+    {
+      "id": 4,
+      "nombre": "Ciberseguridad",
+      "descripcion": "Descubrir cómo proteger la información y fortalecer la seguridad de las aplicaciones mediante buenas prácticas tecnológicas."
+    },
+    {
+      "id": 5,
+      "nombre": "Fotografía",
+      "descripcion": "Capturar paisajes, momentos y pequeños detalles que cuentan historias a través de una imagen."
+    },
+    {
+      "id": 6,
+      "nombre": "Lectura",
+      "descripcion": "Explorar nuevas perspectivas, estimular la imaginación y descubrir historias que enriquecen la manera de ver el mundo."
+    }
+
   ],
+
   "proyectos": [
     {
       "id": 1,

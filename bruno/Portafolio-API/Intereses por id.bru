@@ -1,0 +1,31 @@
+meta {
+  name: Intereses por id
+  type: http
+  seq: 5
+}
+
+get {
+  url: {{baseUrl}}/intereses/1
+  body: none
+  auth: inherit
+}
+
+tests {
+  // Prueba 1: Verifica que la API responda correctamente.
+    test("La respuesta tiene estado 200", function () {
+      expect(res.getStatus()).to.equal(200);
+    });
+  
+    // Prueba 2: Verifica que el interés consultado tenga ID 1.
+    test("El interes consultado tiene ID 1", function () {
+      const interes = res.getBody();
+  
+      expect(interes.id).to.equal(1);
+    });
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+  forwardAuthorizationHeader: false
+}
