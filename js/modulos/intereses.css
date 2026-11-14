@@ -1,0 +1,43 @@
+
+/* Personalizamos las tarjetas con un borde lavanda y un fondo suave. */
+#lista-intereses .tarjeta {
+  border-left: 4px solid #8B5FBF;
+  background-color: #F7F2FC;
+}
+
+/* Al pasar el cursor, el borde cambia a ciruela. */
+#lista-intereses .tarjeta:hover {
+  border-left-color: #59377C;
+  box-shadow: 0 6px 18px rgba(89, 55, 124, 0.15);
+}
+
+/* Contenedor de cada ícono SVG. Crea un recuadro lavanda de 48 x 48 píxeles. */
+#lista-intereses .interes-icono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background-color: #E9DDF5;
+  color: #59377C;
+}
+
+/* Ajustamos el tamaño de los SVG.
+   El color se hereda del contenedor mediante
+   currentColor, definido en JavaScript. */
+#lista-intereses .interes-icono svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+/* Aplicamos ciruela a los títulos.*/
+#lista-intereses .tarjeta-titulo {
+  color: #59377C;
+}
+
+/* Utilizamos un tono oscuro para facilitar la lectura de las descripciones. */
+#lista-intereses .tarjeta-texto {
+  color: #51465C;
+}
