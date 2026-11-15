@@ -49,9 +49,30 @@
     {
       "id": 1,
       "nombre": "Sistema de matrícula",
-      "descripcion": "Aplicación académica desarrollada en un curso.",
+      "descripcion": "Aplicación de escritorio para registrar estudiantes, abrir grupos y gestionar la matrícula de cursos por periodo.",
       "tecnologias": ["Java", "PostgreSQL"],
       "estado": "Finalizado"
+    },
+    {
+      "id": 2,
+      "nombre": "Sitio web de portafolio personal",
+      "descripcion": "Sitio en WordPress que muestra habilidades, intereses y proyectos consumiendo datos desde una API REST con JSON Server.",
+      "tecnologias": ["WordPress", "JavaScript", "JSON Server"],
+      "estado": "En desarrollo"
+    },
+    {
+      "id": 3,
+      "nombre": "Inventario para una tienda",
+      "descripcion": "Aplicación web para controlar productos, entradas y salidas de bodega, con reportes de existencias mínimas.",
+      "tecnologias": ["PHP", "Laravel", "MySQL"],
+      "estado": "Finalizado"
+    },
+    {
+      "id": 4,
+      "nombre": "Control de citas para una clínica",
+      "descripcion": "Sistema web para agendar, reprogramar y cancelar citas médicas, con avisos al paciente por correo.",
+      "tecnologias": ["JavaScript", "PHP", "MySQL"],
+      "estado": "En desarrollo"
     }
   ]
 }
