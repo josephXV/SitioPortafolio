@@ -1,0 +1,54 @@
+/* La etiqueta de estado se alinea a la izquierda, arriba del título. */
+.etiqueta-estado {
+  align-self: flex-start;
+  font-weight: 600;
+}
+
+/* Verde para los proyectos que ya terminaron. */
+.etiqueta-estado[data-estado="Finalizado"] {
+  background-color: #dcfce7;
+  color: #14532d;
+}
+
+/* Ámbar para los proyectos que siguen en desarrollo. */
+.etiqueta-estado[data-estado="En desarrollo"] {
+  background-color: #fef3c7;
+  color: #78350f;
+}
+
+/* Barra con los botones del filtro. */
+.portafolio-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+/* Botones del filtro: forma de píldora con borde azul. */
+.portafolio-filtros button {
+  padding: 0.45rem 1.1rem;
+  border: 1px solid #1d4ed8;
+  border-radius: 999px;
+  background: transparent;
+  color: #1d4ed8;
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.portafolio-filtros button:hover {
+  background-color: #dbeafe;
+}
+
+/* Contorno visible al navegar con el teclado. */
+.portafolio-filtros button:focus-visible {
+  outline: 2px solid #1d4ed8;
+  outline-offset: 2px;
+}
+
+/* El botón activo se rellena de azul para diferenciarlo. */
+.portafolio-filtros button[aria-pressed="true"] {
+  background-color: #1d4ed8;
+  color: #ffffff;
+}
