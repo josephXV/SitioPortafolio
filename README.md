@@ -8,7 +8,7 @@ Las páginas **Habilidades**, **Intereses** y **Proyectos** no tienen el conteni
 
 | Integrante | Parte del proyecto |
 |---|---|
-| Joseph | Base de la integración, carga en WordPress y documentación |
+| Joseph Steven Gonzalez Bello | Base de la integración, carga en WordPress y documentación |
 | Franklin Josué Castillo Umaña | Habilidades y tecnologías |
 | Emesis Mayerli Mairena Sevilla | Intereses personales |
 | Jairo Steven Herrera Romero | Proyectos académicos |
